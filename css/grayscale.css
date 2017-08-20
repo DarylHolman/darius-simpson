@@ -305,9 +305,15 @@ footer p {
 }
 img::selection {
   background: transparent;
+  border-style: solid;
+  border-width:4px;
+  border-color: #ffffff;
 }
 img::-moz-selection {
   background: transparent;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #ffffff;
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
